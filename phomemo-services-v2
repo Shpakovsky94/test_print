@@ -1,0 +1,32 @@
+I/flutter (23076): BluetoothService{uuid:
+ 0000ff00-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81,
+isPrimary: true,characteristics: [
+BluetoothCharacteristic{uuid: 0000ff02-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000ff00-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: true, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}, descriptors: [], value: [], BluetoothCharacteristic{uuid: 0000ff01-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000ff00-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: true, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEnc
+
+
+I/flutter (23076): BluetoothService{uuid:
+0000180a-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, isPrimary: true,
+characteristics: [BluetoothCharacteristic{uuid: 00002a29-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000180a-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}, descriptors: [], value: [],
+BluetoothCharacteristic{uuid: 00002a24-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000180a-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: true, writeWithoutResponse: false, write: false, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEn
+
+
+I/flutter (23076): BluetoothService{uuid:
+ 49535343-fe7d-4ae5-8fa9-9fafd205e455, deviceId: 00:15:83:7A:29:81, isPrimary: true, characteristics:
+ [BluetoothCharacteristic{uuid: 49535343-6daa-4d02-abf6-19569aca69fe, deviceId: 00:15:83:7A:29:81, serviceUuid: 49535343-fe7d-4ae5-8fa9-9fafd205e455, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}, descriptors: [], value: [], BluetoothCharacteristic{uuid: 49535343-8841-43f4-a8d4-ecbe34729bb3, deviceId: 00:15:83:7A:29:81, serviceUuid: 49535343-fe7d-4ae5-8fa9-9fafd205e455, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: true, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEnc
+
+
+I/flutter (23076): BluetoothService{uuid:
+0000fee7-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, isPrimary: true, characteristics: [
+BluetoothCharacteristic{uuid: 0000fec7-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000fee7-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}, descriptors: [], value: [], BluetoothCharacteristic{uuid: 0000fec8-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000fee7-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: false, indicate: true, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEn
+
+
+I/flutter (23076): BluetoothService{uuid:
+ 0000ff80-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, isPrimary: true, characteristics: [
+ BluetoothCharacteristic{uuid: 0000ff82-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000ff80-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: true, write: true, notify: false, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEncryptionRequired: false}, descriptors: [], value: [], BluetoothCharacteristic{uuid: 0000ff81-0000-1000-8000-00805f9b34fb, deviceId: 00:15:83:7A:29:81, serviceUuid: 0000ff80-0000-1000-8000-00805f9b34fb, secondaryServiceUuid: null, properties: CharacteristicProperties{broadcast: false, read: false, writeWithoutResponse: false, write: false, notify: true, indicate: false, authenticatedSignedWrites: false, extendedProperties: false, notifyEncryptionRequired: false, indicateEnc
+
+
+0000ff00-0000-1000-8000-00805f9b34fb: 0000ff02-0000-1000-8000-00805f9b34fb  /  0000ff01-0000-1000-8000-00805f9b34fb
+0000180a-0000-1000-8000-00805f9b34fb:00002a29-0000-1000-8000-00805f9b34fb
+49535343-fe7d-4ae5-8fa9-9fafd205e455: 49535343-6daa-4d02-abf6-19569aca69fe  /  49535343-8841-43f4-a8d4-ecbe34729bb3
+0000fee7-0000-1000-8000-00805f9b34fb: 0000fec7-0000-1000-8000-00805f9b34fb  /  0000fec8-0000-1000-8000-00805f9b34fb
+0000ff80-0000-1000-8000-00805f9b34fb: 0000ff82-0000-1000-8000-00805f9b34fb  /  0000ff81-0000-1000-8000-00805f9b34fb

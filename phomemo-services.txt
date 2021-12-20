@@ -1,0 +1,31 @@
+0xFEE7 - 0000fee7-0000-1000-8000-00805f9b34fb
+0x180A - 0000180a-0000-1000-8000-00805f9b34fb
+0xFF00 - 0000ff00-0000-1000-8000-00805f9b34fb
+0xFF02 - 0000ff02-0000-1000-8000-00805f9b34fb
+
+			if (printCharacteristic == null) {
+			navigator.bluetooth.requestDevice({
+				filters: [{
+					services: [0xFEE7]
+				}],
+				optionalServices: [0x180A, 0xFF00]
+			})
+			.then(device => {
+				console.log('> Found ' + device.name);
+				console.log('Connecting to GATT Server...');
+				return device.gatt.connect();
+			})
+			.then(server => server.getPrimaryService(0xFF00))
+			.then(service => service.getCharacteristic(0xFF02))
+			.then(characteristic => {
+				// Cache the characteristic
+				printCharacteristic = characteristic;
+				sendPrinterData();
+			})
+			.catch(handleError);
+		} else {
+			sendPrinterData();
+		}
+	}
+	}
+}
